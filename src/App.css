@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #FFEECC;
+}
+
+.biomeButton {
+  font-weight: bold;
+
+  width: 100px;
+  height: 50px;
+
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+
+.biomeButton:hover {
+  background-color: green;
+}
